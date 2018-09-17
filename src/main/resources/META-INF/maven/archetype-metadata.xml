@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+    name="bonita-project-archetype" xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requiredProperties>
+        <requiredProperty key="bonitaVersion">
+            <defaultValue>7.8.0</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="displayName">
+            <defaultValue>My Bonita Project</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="desc">
+            <defaultValue>My Bonita Project description</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="edition">
+            <defaultValue>community</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
+</archetype-descriptor>
